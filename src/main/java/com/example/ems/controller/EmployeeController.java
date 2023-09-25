@@ -67,7 +67,7 @@ public class EmployeeController {
         model.addAttribute("sortDir", sortDir);
         model.addAttribute("reverseSortDir", sortDir.equals("asc") ? "desc" : "asc");
 
-        model.addAttribute("listEmployee", employeeList);
+        model.addAttribute("listEmployees", employeeList);
 
         return "index";
     }
